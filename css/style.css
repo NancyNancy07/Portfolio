@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-color: #000; */
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+/* header */
+/* logo */
+#logo {
+  width: 50%;
+  padding-left: 25px;
+}
+#logo:hover {
+  width: 52%;
+}
+/* nav bar */
+ul {
+  margin-top: 1.5rem;
+}
+ul li {
+  display: inline;
+  list-style: none;
+}
+li a:hover {
+  background-color: #377099;
+  color: #fff;
+}
+
+ul li a {
+  color: #377099;
+  font-size: 16px;
+  margin-right: 10px;
+  padding: 8px 25px;
+  text-decoration: none;
+}
+.nav-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #377099;
+}
+.nav-bar {
+  text-align: end;
+}
+/* main */
+
+/* intro */
+.intro-container {
+  text-align: center;
+  font-family: sans-serif;
+  color: #555454;
+  margin-top: 2rem;
+}
+.title-text {
+  font-size: 28pt;
+  padding-bottom: 1rem;
+}
+.subtitle-text {
+  font-size: 18pt;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  /* padding-top: 2rem; */
+}
+.border {
+  border: #377099 solid 1px;
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  padding: 1rem 0 1rem 0;
+}
+.image:hover {
+  transform: scale(1.1);
+}
+.description {
+  padding: 1rem 0 2rem 0;
+  /* border-bottom: #377099 1px solid; */
+}
+.description-text {
+  line-height: 24px;
+}
+/* footer */
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  border-top: #377099 solid 1px;
+  padding: 2rem 0 2rem 0;
+  margin-top: 3rem;
+}
+/* contact form */
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
+}
+.contact-text {
+  color: #555454;
+  padding: 2rem;
+  font-size: 18px;
+  line-height: 25px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding-top: 2rem;
+}
+form input,
+textarea {
+  padding: 8px 0 8px 5px;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+.button-clean {
+  background-color: #377099;
+  color: #fff;
+  width: 25%;
+}
+.button-clean:hover {
+  background-color: #305875;
+}
+
+/* Dark mode */
+body {
+  background-color: #040404;
+  color: #d3cccc;
+}
+.intro-container,
+nav li a {
+  color: #d3cccc;
+}
+form input,
+textarea,
+::placeholder {
+  background-color: #000;
+  color: #d3cccc;
+}
+.contact-text {
+  color: #d3cccc;
+}
