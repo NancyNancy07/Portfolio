@@ -11,13 +11,28 @@
   --light-bg-color: #f1f4f6;
   --bg-color: #191b1c;
   --light-text-color: #555454;
-  --primary-font: "Atkinson Hyperlegible", sans-serif;
+  --primary-font: Arial, Helvetica, sans-serif;
 }
 body {
   /* background-color: #000; */
   margin-left: 10rem;
   margin-right: 10rem;
-  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 28pt;
+  font-weight: lighter;
+}
+h2 {
+  font-size: 18pt;
+  font-weight: lighter;
+}
+h3 {
+  font-weight: lighter;
+}
+p {
+  font-size: 16px;
+  line-height: 22px;
 }
 /* header */
 /* logo */
@@ -124,8 +139,6 @@ ul li a {
 .contact-text {
   color: var(--light-text-colortext-color);
   padding: 2rem;
-  font-size: 18px;
-  line-height: 25px;
 }
 .form-container {
   display: flex;
@@ -201,7 +214,15 @@ textarea {
   height: auto;
 }
 .project-link {
-  color: var(--primary-color);
+  background: var(--primary-color);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+.margin-top {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 /* Dark mode */
 body {
@@ -232,10 +253,14 @@ textarea,
     margin: 1rem;
   }
   .project-button {
-    left: 5;
-    bottom: 6;
+    left: 6.5rem;
+    bottom: 6rem;
   }
   .contact-container {
     padding: 0;
+  }
+  ul li a {
+    margin-right: 0;
+    padding: 8px 20px;
   }
 }
