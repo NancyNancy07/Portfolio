@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto&family=Tajawal:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +11,7 @@
   --text-color: #d3cccc;
   --bg-color: #191b1c;
   --project-bg-color: #3f4242;
-  --primary-font: Arial, Helvetica, sans-serif;
+  --primary-font: "Roboto", sans-serif;
 }
 
 .light-theme {
@@ -24,7 +25,7 @@
 body {
   margin-left: 10rem;
   margin-right: 10rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--primary-font);
   background-color: var(--bg-color);
   color: var(--text-color);
 }
@@ -126,9 +127,6 @@ ul li a {
   padding: 1rem 0 2rem 0;
   /* border-bottom: #377099 1px solid; */
 }
-.description-text {
-  line-height: 24px;
-}
 /* footer */
 .footer {
   display: grid;
@@ -222,8 +220,13 @@ textarea {
   display: block;
   max-width: 100%;
   height: auto;
+  margin-bottom: 1rem;
 }
 .project-link {
+  display: block;
+  margin: auto;
+  width: 25%;
+  text-align: center;
   background: var(--primary-color);
   color: var(--secondary-color2);
   padding: 8px 16px;
@@ -283,5 +286,15 @@ textarea,
   ul li a {
     margin-right: 0;
     padding: 8px 20px;
+  }
+  #icon {
+    top: 4rem;
+    width: 7%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body {
+    padding: 0;
+    margin: 0;
   }
 }
