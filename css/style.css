@@ -8,16 +8,25 @@
   --secondary-color: #040404;
   --secondary-color2: #ffffff;
   --text-color: #d3cccc;
-  --light-bg-color: #f1f4f6;
   --bg-color: #191b1c;
-  --light-text-color: #555454;
+  --project-bg-color: #3f4242;
   --primary-font: Arial, Helvetica, sans-serif;
 }
+
+.light-theme {
+  --primary-color: #377099;
+  --secondary-color: #040404;
+  --secondary-color2: #ffffff;
+  --bg-color: #f1f4f6;
+  --project-bg-color: #e0e7e7;
+  --text-color: #555454;
+}
 body {
-  /* background-color: #000; */
   margin-left: 10rem;
   margin-right: 10rem;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 h1 {
   font-size: 28pt;
@@ -61,7 +70,7 @@ li a:hover {
 }
 
 ul li a {
-  color: var(--primary-color);
+  color: var(--text-color);
   font-size: 16px;
   margin-right: 10px;
   padding: 8px 25px;
@@ -83,7 +92,7 @@ ul li a {
 .intro-container {
   text-align: center;
   font-family: sans-serif;
-  color: var(--light-text-color);
+  color: var(--text-color);
   margin-top: 2rem;
 }
 .title-text {
@@ -137,7 +146,7 @@ ul li a {
   padding: 2rem;
 }
 .contact-text {
-  color: var(--light-text-colortext-color);
+  color: var(--text-color);
   padding: 2rem;
 }
 .form-container {
@@ -150,6 +159,7 @@ form input,
 textarea {
   padding: 8px 0 8px 5px;
   font-family: var(--primary-font);
+  background-color: var(--bg-color);
 }
 .button-clean {
   background-color: var(--primary-color);
@@ -167,7 +177,7 @@ textarea {
   gap: 0.5em;
 }
 .projects {
-  background-color: var(--light-bg-color);
+  background-color: var(--project-bg-color);
   padding: 1rem;
   margin: 1em;
 }
@@ -181,7 +191,7 @@ textarea {
 }
 .project-description {
   font-size: 14px;
-  color: var(--light-text-color);
+  color: var(--text-color);
   line-height: 20px;
 }
 .project-button {
@@ -215,7 +225,7 @@ textarea {
 }
 .project-link {
   background: var(--primary-color);
-  color: white;
+  color: var(--secondary-color2);
   padding: 8px 16px;
   border-radius: 25px;
   text-decoration: none;
@@ -225,7 +235,7 @@ textarea {
   margin-bottom: 0.5rem;
 }
 /* Dark mode */
-body {
+/* body {
   background-color: var(--secondary-color);
   color: var(--text-color);
 }
@@ -244,8 +254,14 @@ textarea,
 }
 .projects {
   background-color: var(--bg-color);
+} */
+#icon {
+  cursor: pointer;
+  width: 3%;
+  position: absolute;
+  top: 2.5rem;
+  right: 1rem;
 }
-
 /* mobile view ////////////////////////////////////// */
 @media only screen and (max-width: 600px) {
   body {
