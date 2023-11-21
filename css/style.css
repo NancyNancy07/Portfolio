@@ -166,11 +166,13 @@ textarea {
   padding: 8px 0 8px 5px;
   font-family: var(--primary-font);
   background-color: var(--bg-color);
+  color: var(--text-color);
 }
-.button-clean {
+.button {
   background-color: var(--primary-color);
   color: var(--secondary-color2);
-  width: 25%;
+  width: 50%;
+  padding: 8px 25px;
 }
 .button-clean:hover {
   background-color: #305875;
