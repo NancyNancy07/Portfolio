@@ -355,6 +355,7 @@ textarea,
   0% {
     transform: translateX(0px);
   }
+
   23% {
     transform: translateX(0px);
   }
@@ -423,5 +424,38 @@ textarea,
   }
   100% {
     transform: translateX(calc(var(--width) * -3));
+  }
+}
+.projects {
+  animation: moveup 2s 1 ease-in-out;
+}
+@keyframes moveup {
+  0% {
+    transform: translateY(300px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
+.img-with-button {
+  animation: moveright 2s 1 ease-in-out;
+}
+@keyframes moveright {
+  0% {
+    transform: translateX(-500px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+}
+.animate {
+  animation: moveleft 2s 1 ease-in-out;
+}
+@keyframes moveleft {
+  0% {
+    transform: translateX(500px);
+  }
+  50% {
+    transform: translateX(0px);
   }
 }
