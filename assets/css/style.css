@@ -273,6 +273,7 @@ body.active {
   display: grid;
   place-content: center;
   transition: var(--transition-2);
+  color: black;
 }
 
 .btn-icon path {

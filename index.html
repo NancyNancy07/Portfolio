@@ -4,47 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- 
-    - primary meta tags
-  -->
     <title>Nancy</title>
-    <meta name="title" content="Nancy" />
-    <meta name="description" content="Web Developer." />
+    <link rel="shortcut icon" href="./assets/images/Nancy_c.png" />
 
-    <!-- 
-    - favicon
-  -->
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
-
-    <!-- 
-    - custom css link
-  -->
+    <!-- custom css link -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!-- 
-    - custom font link
-  -->
+    <!-- custom font link -->
     <link rel="stylesheet" href="./assets/font/font.css" />
-
-    <!-- 
-    - preload images
-  -->
-    <link rel="preload" as="image" href="./assets/images/loading.svg" />
-    <link rel="preload" as="image" href="./assets/images/loading-circle.svg" />
   </head>
 
   <body class="active" id="top">
-    <!-- 
-    -#PRELOADING
-  -->
+    <!-- #PRELOADING -->
 
     <div class="loading" data-loading>
       <img
-        src="./assets/images/loading.svg"
+        src="./assets/images/Nancy_c.png"
         width="55"
         height="55"
         alt="loading"
+        border-radius="100%"
         class="img"
       />
       <img
@@ -56,9 +35,7 @@
       />
     </div>
 
-    <!-- 
-    - #HEADER
-  -->
+    <!-- #HEADER -->
 
     <header class="header" data-header>
       <div class="container">
@@ -111,10 +88,6 @@
             </li>
 
             <li class="navbar-item">
-              <a href="#services" class="navbar-link" data-nav-link>Services</a>
-            </li>
-
-            <li class="navbar-item">
               <a href="#portfolio" class="navbar-link" data-nav-link
                 >Portfolio</a
               >
@@ -122,31 +95,18 @@
 
             <li class="navbar-item">
               <a href="#contact" class="navbar-link" data-nav-link
-                >Contact us</a
+                >Contact Me</a
               >
             </li>
           </ul>
 
-          <button class="login-btn">
-            <img
-              src="./assets/images/user.svg"
-              width="21"
-              height="21"
-              alt="user icon"
-            />
-
-            <span class="span">Login</span>
-          </button>
-
           <p class="navbar-title">My Address</p>
 
-          <address class="navbar-text">
-            3287 Indiana Avenue, Waialua, Hawaii
-          </address>
+          <address class="navbar-text">Copenhagen, Denmark</address>
 
           <p class="navbar-text">
-            Urgent issue? call us at
-            <a href="tel:8085613846" class="contact-link">808-561-3846</a>
+            Call me at
+            <a href="tel:8085613846" class="contact-link">+4571670573</a>
           </p>
         </nav>
 
@@ -156,9 +116,7 @@
 
     <main>
       <article>
-        <!-- 
-        - #HERO
-      -->
+        <!-- #HERO -->
 
         <section class="section hero" id="home" aria-label="home">
           <div class="container">
@@ -192,9 +150,7 @@
           />
         </section>
 
-        <!-- 
-        - #GALLERY
-      -->
+        <!-- #GALLERY -->
 
         <section class="section gallery" id="gallery">
           <div class="container">
@@ -500,280 +456,7 @@
             />
           </div>
         </section>
-
-        <!-- 
-        - #CATEGORY
-      -->
-
-        <section class="section category" aria-label="photography category">
-          <div class="container">
-            <ul class="category-list">
-              <li class="category-item" data-reveal>
-                <a href="#" class="category-card">
-                  <h3 class="h4 card-title">Landscape,</h3>
-
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 600; --height: 690"
-                  >
-                    <img
-                      src="./assets/images/category-1.jpg"
-                      width="600"
-                      height="690"
-                      loading="lazy"
-                      alt="Landscape"
-                      class="img-cover"
-                    />
-                  </figure>
-                </a>
-              </li>
-
-              <li class="category-item" data-reveal>
-                <a href="#" class="category-card">
-                  <h3 class="h4 card-title">Model,</h3>
-
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 600; --height: 690"
-                  >
-                    <img
-                      src="./assets/images/category-2.jpg"
-                      width="600"
-                      height="690"
-                      loading="lazy"
-                      alt="Model"
-                      class="img-cover"
-                    />
-                  </figure>
-                </a>
-              </li>
-
-              <li class="category-item" data-reveal>
-                <a href="#" class="category-card">
-                  <h3 class="h4 card-title">Street,</h3>
-
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 600; --height: 690"
-                  >
-                    <img
-                      src="./assets/images/category-3.jpg"
-                      width="600"
-                      height="690"
-                      loading="lazy"
-                      alt="Street"
-                      class="img-cover"
-                    />
-                  </figure>
-                </a>
-              </li>
-
-              <li class="category-item" data-reveal>
-                <a href="#" class="category-card">
-                  <h3 class="h4 card-title">Product,</h3>
-
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 600; --height: 690"
-                  >
-                    <img
-                      src="./assets/images/category-4.jpg"
-                      width="600"
-                      height="690"
-                      loading="lazy"
-                      alt="Product"
-                      class="img-cover"
-                    />
-                  </figure>
-                </a>
-              </li>
-
-              <li class="category-item" data-reveal>
-                <a href="#" class="category-card">
-                  <h3 class="h4 card-title">Fashion,</h3>
-
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 600; --height: 690"
-                  >
-                    <img
-                      src="./assets/images/category-2.jpg"
-                      width="600"
-                      height="690"
-                      loading="lazy"
-                      alt="Fashion"
-                      class="img-cover"
-                    />
-                  </figure>
-                </a>
-              </li>
-
-              <li class="category-item" data-reveal>
-                <a href="#" class="category-card">
-                  <h3 class="h4 card-title">Film,</h3>
-
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 600; --height: 690"
-                  >
-                    <img
-                      src="./assets/images/category-5.jpg"
-                      width="600"
-                      height="690"
-                      loading="lazy"
-                      alt="Film"
-                      class="img-cover"
-                    />
-                  </figure>
-                </a>
-              </li>
-
-              <li class="category-item" data-reveal>
-                <a href="#" class="category-card">
-                  <h3 class="h4 card-title">Architecture,</h3>
-
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 600; --height: 690"
-                  >
-                    <img
-                      src="./assets/images/category-6.jpg"
-                      width="600"
-                      height="690"
-                      loading="lazy"
-                      alt="Architecture"
-                      class="img-cover"
-                    />
-                  </figure>
-                </a>
-              </li>
-
-              <li class="category-item" data-reveal>
-                <a href="#" class="category-card">
-                  <h3 class="h4 card-title">Event,</h3>
-
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 600; --height: 690"
-                  >
-                    <img
-                      src="./assets/images/category-7.jpg"
-                      width="600"
-                      height="690"
-                      loading="lazy"
-                      alt="Event"
-                      class="img-cover"
-                    />
-                  </figure>
-                </a>
-              </li>
-
-              <li class="category-item" data-reveal>
-                <a href="#" class="category-card">
-                  <h3 class="h4 card-title">Wedding,</h3>
-
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 600; --height: 690"
-                  >
-                    <img
-                      src="./assets/images/category-8.jpg"
-                      width="600"
-                      height="690"
-                      loading="lazy"
-                      alt="Wedding"
-                      class="img-cover"
-                    />
-                  </figure>
-                </a>
-              </li>
-
-              <li class="category-item" data-reveal>
-                <a href="#" class="category-card">
-                  <h3 class="h4 card-title">People,</h3>
-
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 600; --height: 690"
-                  >
-                    <img
-                      src="./assets/images/category-9.jpg"
-                      width="600"
-                      height="690"
-                      loading="lazy"
-                      alt="People"
-                      class="img-cover"
-                    />
-                  </figure>
-                </a>
-              </li>
-
-              <li class="category-item" data-reveal>
-                <a href="#" class="category-card">
-                  <h3 class="h4 card-title">Event,</h3>
-
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 600; --height: 690"
-                  >
-                    <img
-                      src="./assets/images/category-7.jpg"
-                      width="600"
-                      height="690"
-                      loading="lazy"
-                      alt="Event"
-                      class="img-cover"
-                    />
-                  </figure>
-                </a>
-              </li>
-
-              <li class="category-item" data-reveal>
-                <a href="#" class="category-card">
-                  <h3 class="h4 card-title">Food,</h3>
-
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 600; --height: 690"
-                  >
-                    <img
-                      src="./assets/images/category-10.jpg"
-                      width="600"
-                      height="690"
-                      loading="lazy"
-                      alt="Food"
-                      class="img-cover"
-                    />
-                  </figure>
-                </a>
-              </li>
-
-              <li class="category-item" data-reveal>
-                <a href="#" class="category-card">
-                  <h3 class="h4 card-title">Health & Wellnes.</h3>
-
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 600; --height: 690"
-                  >
-                    <img
-                      src="./assets/images/category-11.jpg"
-                      width="600"
-                      height="690"
-                      loading="lazy"
-                      alt="Health & Wellnes"
-                      class="img-cover"
-                    />
-                  </figure>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <!-- 
-        - #ABOUT
-      -->
+        <!-- #ABOUT  -->
 
         <section class="section about" id="about" aria-label="about me">
           <div class="container">
@@ -786,20 +469,9 @@
               <div class="wrapper has-before" data-reveal="right">
                 <p class="section-text">
                   A passionate
-                  <em class="em">photograher</em>
-                  who are working in this field for
-                  <em class="em">last 10 years.</em>
-                  I’m ready to give you my best.
+                  <em class="em">developer</em>
+                  and I am a student at KEA. I’m ready to give you my best.
                 </p>
-
-                <img
-                  src="./assets/images/signature.png"
-                  width="151"
-                  height="92"
-                  loading="lazy"
-                  alt="signature"
-                  class="img"
-                />
               </div>
             </div>
 
@@ -809,7 +481,7 @@
                 style="--width: 512; --height: 684"
               >
                 <img
-                  src="./assets/images/about-banner.jpg"
+                  src="./assets/images/code_9.jpg"
                   width="512"
                   height="684"
                   loading="lazy"
@@ -819,7 +491,7 @@
               </div>
 
               <img
-                src="./assets/images/about-shape-1.png"
+                src="./assets/images/side_logo.png"
                 width="178"
                 height="178"
                 loading="lazy"
@@ -848,169 +520,7 @@
           </div>
         </section>
 
-        <!-- 
-        - #SERVICE
-      -->
-
-        <section
-          class="section service"
-          id="service"
-          aria-labelledby="service-lable"
-        >
-          <p class="section-subtitle container" id="service-lable">
-            My Services
-          </p>
-
-          <ul class="service-list">
-            <li data-reveal>
-              <div class="service-card container">
-                <img
-                  src="./assets/images/service-1.jpg"
-                  width="340"
-                  height="380"
-                  loading="lazy"
-                  alt="Wedding Photography"
-                  class="img"
-                />
-
-                <div>
-                  <h3 class="h3 card-title">Wedding Photography</h3>
-
-                  <p class="card-subtitle">Aut temporibus qui vero.</p>
-                </div>
-
-                <a href="#" class="btn-icon" aria-label="See more">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="43"
-                    height="20"
-                    viewBox="0 0 43 20"
-                    fill="none"
-                  >
-                    <path d="M0 10H41" stroke="white" stroke-width="2" />
-                    <path
-                      d="M33 1L41.9 10.2727L33 19"
-                      stroke="white"
-                      stroke-width="2"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </li>
-
-            <li data-reveal>
-              <div class="service-card container">
-                <img
-                  src="./assets/images/service-2.jpg"
-                  width="340"
-                  height="380"
-                  loading="lazy"
-                  alt="Event Organiser"
-                  class="img"
-                />
-
-                <div>
-                  <h3 class="h3 card-title">Event Organiser</h3>
-
-                  <p class="card-subtitle">Nobis, magni modi ipsa culpa.</p>
-                </div>
-
-                <a href="#" class="btn-icon" aria-label="See more">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="43"
-                    height="20"
-                    viewBox="0 0 43 20"
-                    fill="none"
-                  >
-                    <path d="M0 10H41" stroke="white" stroke-width="2" />
-                    <path
-                      d="M33 1L41.9 10.2727L33 19"
-                      stroke="white"
-                      stroke-width="2"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </li>
-
-            <li data-reveal>
-              <div class="service-card container">
-                <img
-                  src="./assets/images/service-3.jpg"
-                  width="340"
-                  height="380"
-                  loading="lazy"
-                  alt="Product Marketing"
-                  class="img"
-                />
-
-                <div>
-                  <h3 class="h3 card-title">Product Marketing</h3>
-
-                  <p class="card-subtitle">Tenetur porro repellendus!</p>
-                </div>
-
-                <a href="#" class="btn-icon" aria-label="See more">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="43"
-                    height="20"
-                    viewBox="0 0 43 20"
-                    fill="none"
-                  >
-                    <path d="M0 10H41" stroke="white" stroke-width="2" />
-                    <path
-                      d="M33 1L41.9 10.2727L33 19"
-                      stroke="white"
-                      stroke-width="2"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </li>
-
-            <li data-reveal>
-              <div class="service-card container">
-                <img
-                  src="./assets/images/service-4.jpg"
-                  width="340"
-                  height="380"
-                  loading="lazy"
-                  alt="Videography"
-                  class="img"
-                />
-
-                <div>
-                  <h3 class="h3 card-title">Videography</h3>
-
-                  <p class="card-subtitle">Amet consectetur adipisicing elit</p>
-                </div>
-
-                <a href="#" class="btn-icon" aria-label="See more">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="43"
-                    height="20"
-                    viewBox="0 0 43 20"
-                    fill="none"
-                  >
-                    <path d="M0 10H41" stroke="white" stroke-width="2" />
-                    <path
-                      d="M33 1L41.9 10.2727L33 19"
-                      stroke="white"
-                      stroke-width="2"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </li>
-          </ul>
-        </section>
-
-        <!-- 
-        - #PORTFOLIO
-      -->
+        <!-- #PORTFOLIO -->
 
         <section
           class="section portfolio"
@@ -1021,7 +531,7 @@
             <div class="portfolio-list">
               <div class="wrapper">
                 <h2 class="h2 section-title" id="portfolio-label" data-reveal>
-                  My Recent Work.
+                  My Work
                 </h2>
 
                 <div class="portfolio-card" data-reveal>
@@ -1205,41 +715,39 @@
       </article>
     </main>
 
-    <!-- 
-    - #FOOTER
-  -->
+    <!-- #FOOTER -->
 
     <footer class="footer">
       <div class="footer-top section" id="contact">
         <div class="container">
-          <p class="section-subtitle" data-reveal>Contact Us</p>
+          <p class="section-subtitle" data-reveal>Contact Me</p>
 
           <h2 class="h2 section-title" data-reveal>
-            Work inquiry, Job oportunities? Send Message.
+            I am looking for
+            <em class="em">Internship</em>
+            opportunities as a part of my education.
           </h2>
 
-          <a href="#" class="btn-icon" data-reveal>
-            <img
-              src="./assets/images/arrow-forward.svg"
-              width="43"
-              height="20"
-              loading="lazy"
-              alt="arrow-forward icon"
-            />
+          <a
+            href="mailto:13nancyrajput25@gmail.com"
+            class="btn-icon"
+            data-reveal
+            color="black"
+            >Send Email
           </a>
 
           <img
-            src="./assets/images/footer-1.jpg"
+            src="./assets/images/code_2.jpg"
             width="159"
             height="176"
             loading="lazy"
-            alt="photography"
+            alt="code"
             class="abs-img abs-img-1"
             data-reveal
           />
 
           <img
-            src="./assets/images/footer-2.jpg"
+            src="./assets/images/code_4.jpg"
             width="265"
             height="275"
             loading="lazy"
@@ -1249,7 +757,7 @@
           />
 
           <img
-            src="./assets/images/footer-3.jpg"
+            src="./assets/images/code_6.jpg"
             width="303"
             height="272"
             loading="lazy"
@@ -1259,22 +767,13 @@
           />
 
           <img
-            src="./assets/images/footer-4.jpg"
+            src="./assets/images/code_3.jpg"
             width="175"
             height="175"
             loading="lazy"
             alt="photography"
             class="abs-img abs-img-4"
             data-reveal
-          />
-
-          <img
-            src="./assets/images/footer-shape.svg"
-            width="185"
-            height="134"
-            loading="lazy"
-            alt=""
-            class="shape"
           />
         </div>
       </div>
@@ -1283,7 +782,7 @@
         <div class="container">
           <a href="#" class="logo">
             <img
-              src="./assets/images/logo.svg"
+              src="./assets/images/nancy3.png"
               width="40"
               height="40"
               loading="lazy"
@@ -1293,37 +792,37 @@
 
           <ul class="social-list">
             <li>
-              <a href="#" class="social-link">Fa.</a>
+              <a
+                href="https://www.linkedin.com/in/nancy-mehra-97b03a221"
+                class="social-link"
+                >LinkedIn.</a
+              >
             </li>
 
             <li>
-              <a href="#" class="social-link">Insta.</a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">Tw.</a>
+              <a href="https://github.com/NancyNancy07" class="social-link"
+                >GitHub.</a
+              >
             </li>
           </ul>
 
-          <p class="copyright">Made with love</p>
+          <p class="copyright">&#169; Nancy 2022</p>
         </div>
       </div>
 
       <div class="footer-bg has-before">
         <img
-          src="./assets/images/footer-bg.jpg"
+          src="./assets/images/code_10.jpg"
           width="1920"
           height="1135"
           loading="lazy"
-          alt="photography"
+          alt="code image"
           class="img-cover"
         />
       </div>
     </footer>
 
-    <!-- 
-    - #BACK TO TOP
-  -->
+    <!-- #BACK TO TOP -->
 
     <a
       href="#top"
@@ -1333,15 +832,11 @@
       >0%</a
     >
 
-    <!-- 
-    - #CUSTOM CURSOR
-  -->
+    <!-- #CUSTOM CURSOR -->
 
     <div class="cursor" data-cursor></div>
 
-    <!-- 
-    - custom js link
-  -->
+    <!-- custom js link -->
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
