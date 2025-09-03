@@ -414,7 +414,8 @@ body.active {
 }
 
 .navbar-top .logo .img {
-  width: 130px;
+  width: 7rem;
+  height: auto;
 }
 
 .nav-close-btn {
